@@ -1,0 +1,68 @@
+a {
+  text-decoration: none;
+}
+
+a:visisted {
+  text-decoration: none;
+}
+
+.myfont {
+  font-family:sans-serif;
+}
+
+.box {
+    padding: 5px;
+    border: 1px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#container
+{
+    margin: 0 auto;
+    width: 1024px;
+    background: #d5dbdb;
+    /* background: #e5e7e9; */
+    overflow: hidden
+}
+
+#across {
+  float: left;
+  width: 1024px;  /* width must match container */
+}
+
+#left {
+    float: left;
+    width: auto;
+}
+
+#mid {
+    float: left;
+    width: auto;
+}
+
+#right {
+    float: left;
+    width: auto;
+}
+
+
+#left .box {
+    margin: 0 0 0 0;
+    border-color: blue
+}
+
+#mid .box {
+    margin: 0 0 0 0;
+    /* border-color: red */
+}
+#right .box {
+    margin: 0 0 0 0;
+    border-color: green
+}
+
+#across .box {
+    margin: 0 0 0 0;
+    border-color: yellow;
+}
